@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './App.css';
 
-// Catálogo con al menos 20 películas o series y la palabra "año" corregida
+
 const catalogoInicial = [
   { id: 1, titulo: "Interstellar", tipo: "Pelicula", genero: "Ciencia ficción", anio: 2014, duracion: "169 min", sinopsis: "Un grupo de científicos viaja a través de un agujero de gusano en busca de un nuevo hogar para la humanidad.", imagen: "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg" },
   { id: 2, titulo: "Coco", tipo: "Pelicula", genero: "Animación", anio: 2017, duracion: "105 min", sinopsis: "Miguel sueña con ser músico y emprende un viaje al colorido Mundo de los Muertos para descubrir los secretos de su familia.", imagen: "https://image.tmdb.org/t/p/w500/eKi8LeDW8VO0WzMUWzZtDq101iG.jpg" },
